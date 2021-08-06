@@ -1,0 +1,176 @@
+body, html {
+  background-color: #e4b7cc;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #e6d9d9;
+}
+
+.container button:hover {
+  background-color: yellow;
+}
+
+.HOME {
+  height: 10%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.HOME button {
+  margin: 0;
+  padding: 0;
+  background-color: #31f031;
+  height: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.HOME .SpecialBut {
+  background-color: #e67ecc;
+  width: 10%;
+}
+
+.HOME .SpecialHomeBut {
+  width: 80%;
+}
+
+.HOME .HomeBut {
+  width: 100%;
+}
+
+.MAIN {
+  height: 80%;
+  width: 100%;
+  background: #e0b6d7;
+  margin: 0;
+  padding: 0;
+  text-align: centre;
+}
+
+.MAIN blockquote {
+  margin-top: 0;
+  padding-top: 5%;
+}
+
+.MAIN .medical-login-container {
+  height: 50%;
+  width: 30%;
+  margin: 0%;
+  padding: 5%;
+  background: mediumslateblue;
+  float: right;
+}
+
+.MAIN .medical-login-container .loginform {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0%;
+}
+
+.MAIN .medical-login-container .loginform .loginTextArea {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 20%;
+}
+
+.MAIN .carer-login-container {
+  height: 50%;
+  width: 30%;
+  margin: 0%;
+  padding: 5%;
+  background: mediumslateblue;
+  float: left;
+}
+
+.MAIN .carer-login-container .loginform {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0%;
+}
+
+.MAIN .carer-login-container .loginform .loginTextArea {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 20%;
+}
+
+.MAIN .TextArea {
+  width: 100%;
+  height: 40%;
+}
+
+.MAIN ul {
+  height: 50%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #e0b6d7;
+}
+
+.MAIN ul li {
+  margin-top: 8%;
+  padding: 0;
+  height: 80%;
+  width: 33.33%;
+}
+
+.MAIN ul li button {
+  margin-top: -15%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 0%;
+  padding: 0;
+  background-color: #82e7ee;
+  height: 95%;
+  font-size: 100%;
+  width: 70%;
+  border-radius: 20%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.MAIN ul li button:hover {
+  background-color: #e7ff0d;
+}
+
+.MAIN ul li button img {
+  height: 60%;
+}
+
+.BACK {
+  height: 10%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.BACK button {
+  background-color: #ee1141;
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.HEADERS {
+  text-align: center;
+  color: #60a0ff;
+}
+/*# sourceMappingURL=main.css.map */

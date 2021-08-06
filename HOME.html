@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="/CSS/main.css">
+    <script type="text/javascript">
+
+        function randomClick() {
+            var links = new Array();
+            links[0] = "ACTIVITY.html";
+            links[1] = "POPUP1.html";
+            var random = Math.floor(Math.random() * links.length);
+            window.location.href = links[random];
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="HOME">
+            <button class="SpecialBut" onclick="window.location.href='CareLogin.html';">
+                <img src="/IMAGES/Home-button.svg" width=100% height=50% alt="GO BACK">CARER</button><!--
+                --><button class="SpecialHomeBut" onclick="window.location.href='HOME.html';">
+                <img src="/IMAGES/Home-button.svg" width=100% height=50% alt="GO BACK">GO HOME</button><!--
+                --><button class="SpecialBut" onclick="window.location.href='Medical.html';">
+                <img src="/IMAGES/Home-button.svg" width=100% height=50% alt="GO BACK">MEDICAL
+            </button>
+        </div>
+        <div class="MAIN">
+            <ul>
+                <li><button id="CALL" onclick="myFunction()">
+                        <img src="/IMAGES/phone3.svg" width=100% height=60% alt="Phone"> CALL
+                    </button></li>
+
+                <li>
+                    <button onclick="window.location.href='CALENDAR-VIEW-PAGE.html';">
+                        <img src="/IMAGES/calendar.svg" width=100% height=60% alt="calendar"> CALENDAR
+                    </button>
+                    </a>
+                </li>
+
+                <li><button onclick="window.location.href='APPLIANCES.html';">
+                        <img src="/IMAGES/Appliances.svg" width=100% height=60% alt="Appliances">APPLIANCES
+                    </button></li>
+
+            </ul>
+            <ul>
+                <li><button onclick=randomClick();>
+                        <img src="/IMAGES/Activity.svg" width=100% height=80% alt="ACTIVITY">ACTIVITY
+                    </button></li>
+                <li><button onclick="window.location.href='EXERCISE.html';">
+                        <img src="/IMAGES/Exercise.svg" width=100% height=80% alt="EXERCISE">EXERCISE
+                    </button></li>
+                <li><button onclick="window.location.href='FIND.html';">
+                        <img src="/IMAGES/Find.svg" width=100% height=80% alt="FIND">FIND
+                    </button></li>
+
+            </ul>
+
+        </div>
+        <div class="BACK">
+            <button onclick="window.location.href='HOME.html';">
+                <img src="/IMAGES/Back-arrow.svg" width=100% height=50% alt="GO BACK">GO BACK</button>
+        </div>
+
+    </div>
+
+</body>
+
+
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("CALL");
+        x.style.background = "red";
+        window.location.href = 'CALL.html';
+    }
+</script>
+
+</html>
